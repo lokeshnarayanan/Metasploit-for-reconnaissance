@@ -13,8 +13,8 @@ To get introduced to Metasploit Framework and to  perform reconnaissance  in pen
 
 - `Step 3:` Open terminal and try execute some kali linux commands
 
-### DEVELOPED BY : Gumma Dileep Kumar
-### REGISTER NO : 212222240032
+### DEVELOPED BY : Lokesh N
+### REGISTER NO : 212222100023
 
 ## EXECUTION STEPS AND ITS OUTPUT:
 Find out the ip address of the attackers system
