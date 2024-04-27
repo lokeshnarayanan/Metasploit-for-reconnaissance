@@ -21,28 +21,36 @@ Find out the ip address of the attackers system
 
 ![ethical_5 1](https://github.com/gummadileepkumar/Metasploit-for-reconnaissance/assets/118707761/04220a00-3388-4bc9-a1f1-158ee227e9ed)
 
+
 Invoke msfconsole
+
 ![ethical_5 2](https://github.com/gummadileepkumar/Metasploit-for-reconnaissance/assets/118707761/5b3f13e7-02d6-4ae9-a679-1e29814c1f36)
 
 
 Type help or a question mark "?" to see the list of all available commands you can use inside msfconsole.
+
 ![ethical_5 3](https://github.com/gummadileepkumar/Metasploit-for-reconnaissance/assets/118707761/6c95ae22-de63-4a00-88f6-4bc30dc12444)
 
 
 ### Port scanning:
+
 msf > nmap -sT 192.168.1810/24-p1-1000
+
 ![ethical_5 4](https://github.com/gummadileepkumar/Metasploit-for-reconnaissance/assets/118707761/7b3b9751-0f3d-4d24-89ed-0c355510e584)
 
 
 msf > db_nmap 192.168.181.0/24
+
 ![ethical_5 5](https://github.com/gummadileepkumar/Metasploit-for-reconnaissance/assets/118707761/7308445a-9df5-4fd4-8077-d531ebee15a8)
 
 
 kali > ls-l
+
 ![ethical_5 6](https://github.com/gummadileepkumar/Metasploit-for-reconnaissance/assets/118707761/98842d34-af18-450d-9add-702185e645d9)
 
 
 search
+
 ![ethical_5 7](https://github.com/gummadileepkumar/Metasploit-for-reconnaissance/assets/118707761/1c0f045a-d5c1-4f90-9c79-1e9eba202c18)
 
 
@@ -52,6 +60,7 @@ info
 
 
 ### MYSQL ENUMERATION
+
 db_nmap -sV -sC -p 3306 <metasploitable_ip_address>
 ![ethical_5 9](https://github.com/gummadileepkumar/Metasploit-for-reconnaissance/assets/118707761/fb1ea679-eb44-4e03-9ba3-4dd22b7ee4f3)
 
